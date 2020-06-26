@@ -1,0 +1,9 @@
+create table numbers
+(
+    id        int auto_increment
+        primary key,
+    code      varchar(50)  null,
+    number    int          null,
+    filenames varchar(100) null,
+    error     varchar(100) null
+);
